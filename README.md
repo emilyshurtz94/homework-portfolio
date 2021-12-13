@@ -8,8 +8,8 @@
 ---
 
 ## Screenshot of Webpage
-
+https://raw.githubusercontent.com/emilyshurtz94/homework-portfolio/main/images/Homework-2_screenshot.png
 ---
 ### Github link
-
+https://emilyshurtz94.github.io/homework-portfolio/
 ---
