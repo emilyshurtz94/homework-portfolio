@@ -8,7 +8,7 @@
 ---
 
 ## Screenshot of Webpage
-https://raw.githubusercontent.com/emilyshurtz94/homework-portfolio/main/images/Homework-2_screenshot.png
+/Users/emily/Desktop/fsf-projects/Homework/homework-portfolio/images/Screen Shot 2021-12-23 at 7.14.08 PM.png
 ---
 ### Github link
 https://emilyshurtz94.github.io/homework-portfolio/
