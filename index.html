@@ -2,64 +2,154 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emily's Page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">?
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href=#aboutme>About Me</a> </li>
-                <li> <a href=#work>Work</a></li>
-                <li><a href=#contactme>Contact Me</a> </li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <h1>Emily's Portfolio</h1>
-        <h2>About Me</h2>
-        <section id=aboutme>
-            <img src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.18169-9/307681_10200356497499965_1329059322_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=de6eea&_nc_ohc=ZkNzQyQCxzAAX858qrj&_nc_ht=scontent.fphx1-2.fna&oh=1937027db7d40e706a857747475d96d3&oe=61D74295"
-                width="200px" height="200px" alt="Emily Shurtz formal picture">
-            <p> My name is Emily Shurtz. I was born in China, and raised in Arizona. I'm a hard worker, detail oriented,
-                and I work well with others. I enjoy spending time with my family, family, and puppy. I love to try new
-                things, travel, and tinker with my 3D printers.</p>
-        </section>
-
-
-        <section id="work">
-            <h2>Work</h2>
-            <h3>Project 1</h3>
-            <a href="https://emilyshurtz94.github.io/Homework-1"><img
-                    src="https://github.com/emilyshurtz94/Homework-1/blob/621f104a29b8e81918d8e28287e4ae7940025c8d/images/digital-marketing-meeting.jpg"
-                    width="300px" height="300px"></a><br>
-            <h3>Project 2</h3>
-            <a href="https://github.com/emilyshurtz94"><img
-                    src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" width="50%"
-                    height="200px"></a><br>
-            <h3>Password Generator</h3>
-            <a href="https://emilyshurtz94.github.io/homework-3/"><img src="/Users/emily/Desktop/fsf-projects/Homework/homework-portfolio/images/password generator screenshot.png" width="600px" height="300px"></a><br>
-            <h3>Marvel Comic Fanpage</h3>
-            <a href="https://emilyshurtz94.github.io/Group-Project-1/"><img src="/Users/emily/Desktop/fsf-projects/homework/homework-portfolio/images/Screen Shot 2021-12-23 at 1.34.50 PM.png" width="300px" height="300px"></a><br>
-
-        </section>
-    </main>
-
-    <footer id="contactme">
-        <h2>Contact Me</h2>
-        <ul class=links>
-            <li><a href="https://github.com/emilyshurtz94">My Github</a></li><br>
-            <li><a href="mailto:emily.shurtz94@gmail.com"> My Email</a></li><br>
-            <li><a href="tel:=480-993-6090">Text or Call</a></li><br>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Emily Shurtz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactme">Contact Me</a>
         </ul>
-    </footer>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <!-- About me -->
+    <section class="p-3 mb-2 bg-secondary text-white">
+      <div class="container" id="aboutme">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <img class="img-fluid w-10px d-none d-sm-block" id="picture" src="./images/Emily Picture.jpeg" alt="" />
+          <div>
+            <h1>Hello, I'm <span class="text-warning"> Emily Shurtz </span></h1>
+            <p class="lead my-4">
+              I currently live in Arizona, but am willing to relocate or work from home. I'm a new web developer. I'm
+              married and have a super cute puppy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
+    <!-- Project -->
+    <section class="p-3 mb-2 bg-primary text-white">
+      <div class="container" id="projects">
+        <h1 style="text-decoration: underline; text-align-last: center;">Projects</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 text-dark">
+        <div class="col">
+          <div class="card h-100"style="width: 18rem;">
+            <img src="./images/Marvel-logo.png" class="card-img-top" alt="marvel">
+            <div class="card-body">
+              <h5 class="card-title">Marvel Comics</h5>
+              <p class="card-text">This website helps a user search for marvel comic books and where local comic book stores are.</p>
+            </div>
+            <a href="https://emilyshurtz94.github.io/Group-Project-1/" class="btn btn-primary">Marvel Comic</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="width: 18rem;">
+            <img src="./images/Notetaker-logo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Note Taker</h5>
+              <p class="card-text">This application allows a user to write, save, and delete notes</p>
+            </div>
+            <a href="https://note-taker-0123.herokuapp.com/" class="btn btn-primary">Start Note Taker</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="width: 18rem;">
+            <img src="./images/Password-logo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Password Generator</h5>
+              <p class="card-text">This site helps generate random passwords based on what a user inputs</p>
+            </div>
+            <a href="https://emilyshurtz94.github.io/homework-3/" class="btn btn-primary">Password Generator</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="width: 18rem;">
+            <img src="./images/swab-no-words.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Swab Swap</h5>
+              <p class="card-text">This application helps users who need or want to give away at home covid tests.</p>
+            </div>
+            <a href="https://swab-swap.herokuapp.com/" class="btn btn-primary">Swab Swap</a>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    </section>
+
+
+    <!-- Education -->
+    <section class="p-3 mb-2 bg-light text-dark">
+      <div class="container-fluid" id="education">
+
+        <h1 style="text-decoration: underline;">Education</h1>
+        <ol>
+          <li>UofA Coding Bootcamp</li>
+          <li>EMS University</li>
+          <li>Brigham Young University Idaho</li>
+        </ol>
+
+        <h3 style="text-decoration: underline;"> Certificates</h3>
+          <h5>Completion of UofA Coding Bootcamp</h5>
+          <h5>Emergency Medical Technician</h5>
+
+      </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section class="p-3 mb-2 bg-dark text-white">
+      <div class="container-fluid" id="contactme">
+
+        <h1 style="text-decoration: underline;">Contact Me</h1>
+        <a href="mailto:emily.shurtz94@gmail.com"><h2>Email</h2></a>
+        <a href="https://github.com/emilyshurtz94"><h2>Github</h2></a>
+        <a href="https://www.linkedin.com/in/emily-shurtz-2a2766b1/"><h2>LinkedIn</h2></a>
+
+      </div>
+
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
